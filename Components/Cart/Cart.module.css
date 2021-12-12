@@ -1,0 +1,189 @@
+.cart {
+    padding: 40px 0;
+    background-color: #6090C3;
+    background-image: url('../images/phone_logo.png');
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px;
+    background-color: #E5E5E5;
+    padding-right: 30px;
+    border-radius: 10px;
+    position: relative;
+    padding-right: 60px;
+}
+
+.img {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Cormorant', serif;
+    margin-bottom: 10px;
+    color: tomato; 
+}
+
+.titleCart {
+    font-size: 38px;
+    font-weight: 900;
+    font-family: 'Cormorant', serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.total {
+    margin-bottom: 10px; 
+    padding: 10px 20px; 
+    border: tomato 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.totalTitle{
+    color: tomato;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Cormorant', serif;
+    text-transform: uppercase;
+}
+
+.totalPrice {
+    color: tomato;
+    font-size: 26px;
+    font-weight: 500;
+    color: black; 
+}
+
+.price {
+    font-size: 20px; 
+    margin-right: 60px;
+    margin-left: auto;
+    width: 80px;
+    height: 50px;
+    border-radius: 60%;
+    background-color: #f5c4c4;
+    display: inline-block;
+    border: 2px solid tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+}
+
+.plus {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #FF8126; 
+    font-size: 24px;
+    border-radius: 10px;
+    font-weight: 400;
+    background-color: #FF8126;
+    justify-content: center; 
+    align-items: center;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.plus:last-child {
+    margin-left: 10px;
+}
+
+.wrapper {
+    width: 55%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    align-items: center;
+    border-bottom: 1px dashed #FF8126;
+}
+
+.wrapperCount {
+    display: flex;
+    justify-content: center;
+}
+
+.close {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    border-radius: 20%;
+    background-color: tomato;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E5E5;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.plus:hover,
+.close:hover {
+    transform: scale(1.2);
+}
+
+.plus:active,
+.close:active {
+    transform: scale(0.8);
+}
+
+.count {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    border-radius: 50%;
+    color: tomato;
+    border: 2px solid tomato;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: -40px;
+}
+
+.none {
+    display: none;
+}
+
+.countHeader {
+    position: absolute;
+    top: 5%;
+    right: 9%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #FF8126;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}

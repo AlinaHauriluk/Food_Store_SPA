@@ -1,0 +1,92 @@
+.form {
+    margin-top: 20px;
+    padding: 50px 0;
+}
+
+.btnForm,
+.wrapperBtn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #FF8126;
+    border: 2px white solid;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.696);
+    padding: 80px 0;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    display: none;
+}
+
+.formSend {
+    padding: 20px;
+    border: 2px solid white;
+    background-color: #FF8126;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapperInput {
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    width: 90%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.wrapperInput::placeholder {
+    font-size: 22px;
+    text-align: center;
+    color: black;
+}
+
+.close {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    border-radius: 20%;
+    background-color: tomato;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E5E5;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.close:hover {
+    transform: scale(1.2);
+}
+
+.close:active {
+    transform: scale(0.8);
+}
+
+

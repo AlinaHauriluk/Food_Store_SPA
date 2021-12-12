@@ -1,0 +1,19 @@
+.logotip {
+    height: 320px;
+    background-color: #6090C3;
+    background-image: url('../images/phone_logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Cormorant', serif;
+    margin-bottom: 30px;
+}
